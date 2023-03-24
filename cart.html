@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>Your Shopping Cart</title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="style1.css" media="screen" type="text/css" />
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+ <script type="text/javascript" src="jquery.store.js"></script>
+</head>
+
+<body>
+
+ <div id="site">
+ <header id="masthead">
+ 
+ </header>
+ <div id="content">
+<h1></h1>
+ <h1>Read later </h1>
+ <form id="shopping-cart" action="cart.html" method="post">
+ <!-- <table class="shopping-cart">
+ <thead>
+ <tr>
+ <th scope="col">Book ID</th>
+ <th scope="col">Book name</th>
+ <th scope="col" colspan="2">Author name</th>
+ </tr>
+ </thead>
+ <tbody>
+
+ </tbody>
+ </table> -->
+ <div class="table">
+ <table>
+ <link rel="stylesheet" href="issue-style.css">
+ <caption>Books in read later </caption>
+ <thead>
+ <tr>
+ <th>Sr</th>
+ <th>Book</th>
+ <th>Author</th>
+ <th>Issuer</th>
+ <th>Issuing Date</th>
+ <th>Submission Date</th>
+ <th style="width: 100px;">Issue</th>
+ <th style="width: 100px;">Submit</th>
+
+ </tr>
+ </thead>
+ <tbody id="table">
+
+ </tbody>
+ </table>
+ </div>
+
+
+ <script src="libraryManagement.js"></script>
+
+
+
+
+ <p id="sub-total">
+ <strong>Total Book </strong>: <span id="stotal"></span>
+ </p>
+ <ul id="shopping-cart-actions">
+ <!-- <li>
+ <input type="submit" name="update" id="update-cart" class="btn" value="Add a book " />
+ </li>
+ <li>
+ <input type="submit" name="delete" id="empty-cart" class="btn" value="Delete a book " />
+ </li> -->
+ <li>
+ <a href="book.html" class="btn">Add a book </a>
+ </li>
+ <li>
+ <a href="checkout.html" class="btn">Collections</a>
+ </li>
+ <li>
+ <a href="book.html" class="btn">Issue a book </a>
+ </li>
+ <li>
+ <a href="checkout.html" class="btn">Go To Home</a>
+ </li>
+ </ul>
+ </form>
+ </div>
+
+
+
+ </div>
+ <script src="libraryManagement.js"></script>
+
+ <footer id="site-info">
+ Copyright &copy;
+ </footer>
+
+</body>
+
+</html>

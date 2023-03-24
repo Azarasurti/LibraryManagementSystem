@@ -1,0 +1,152 @@
+/* #main{
+  background: linear-gradient(to top, rgb(0 0 0 / 50%)50% , rgb(0 0 0 / 50%)50%),url(1.jpg) center center/cover;
+  max-width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; 
+  } */
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+  }
+  body{
+    font-family:url(https://fonts.google.com/specimen/Lexend+Deca?preview.size=51);
+    font-weight: bold;
+    color: blanchedalmond;
+  }
+  nav{
+    background: #0082e6;
+    height : 80px;
+    width: 100%;
+  }
+  label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding : 0 100px;
+    font-weight: bold;
+
+  }
+
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+
+  nav ul li{
+    display:inline-block;
+    padding-top: 0px;
+    /* line-height:80px; */
+    margin:0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size : 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+
+  }
+  a.active,a:hover{
+    color: red;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size : 30px;
+    color : white;
+    float: right;
+    line-height: 80px;
+    margin-right:40px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #title
+{
+  text-align: center;
+  font-family:url(https://fonts.google.com/specimen/Lexend+Deca?preview.size=51);
+  font-weight: bold;
+  color: blanchedalmond;
+  text-align: center;
+  padding-top: 150px; 
+  font-size: 100px; 
+}
+
+body{
+  overflow-y: hidden; 
+}
+#line{
+  width: auto;
+  /* margin: 200px; */
+  /* color: rgba(132, 83, 83, 0.605);
+  opacity: 0.8;
+}
+#statement{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: -80px;
+}
+nav{
+  /* background-color: rgba(0, 0, 0, 0.658); */
+/* }
+
+#navbar_menu{
+
+  
+  display: flex;
+  flex-direction: row;
+  margin-top: -380px; 
+  margin-left: 900px;
+  
+   /* float:right */
+/* }
+#navbar li{
+  display: inline;
+  font-size: 20px;
+  padding-left: 13px;
+
+}
+a{
+  padding: 8px;
+  text-decoration: none;
+  font-family: 'Trebuchet MS';
+  color: white;
+}
+a:hover{
+color: red;
+transition: 0.8sec;
+}  */

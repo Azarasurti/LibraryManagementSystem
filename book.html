@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="issue-style.css">
+    <title>Book Management</title>
+</head>
+
+<body>
+    <nav>
+        <a href="issue-index.html">
+            <h1>Library Management System</h1>
+        </a>
+    </nav>
+    <div class="title">
+        <h1>Issue book </h1>
+    </div>
+    <div class="form">
+        <div>
+            <h2>Issue Book</h2>
+            <form action="">
+                <fieldset>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Name" id="name">
+                    <div>
+                        <label for="name-error" id="nameError" class="error"></label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="">Author</label>
+                    <input type="text" placeholder="Author" id="author">
+                    <div>
+                        <label for="author-error" id="authorError" class="error"></label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="">Issuer</label>
+                    <input type="text" placeholder="Issuer" id="publisher">
+                    <div>
+                        <label for="publisher-error" id="publisherError" class="error"></label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="">Issuing Date</label>
+                    <input type="date" placeholder="Date" id='date'>
+                    <div>
+                        <label for="date-error" id="dateError" class="error"></label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="">Submission Date</label>
+                    <input type="date" placeholder="Date" id='date'>
+                    <div>
+                        <label for="date-error" id="dateError" class="error"></label>
+                    </div>
+                    <button type="button" class="submit" id="Submit" onclick="Add()">Issue Book</button>
+                    <button type="button" class="submit" id="Reissue" onclick="Add()" style="display: 
+   none;">Save Changes</button>
+            </form>
+        </div>
+    </div>
+    <div class="table">
+        <table>
+            <caption>Books available in Library</caption>
+            <thead>
+                <tr>
+                    <th>Sr</th>
+                    <th>Book</th>
+                    <th>Author</th>
+                    <th>Issuer</th>
+                    <th>Issuing Date</th>
+                    <th>Submission Date</th>
+                    <th style="width: 100px;">Reissue</th>
+                    <th style="width: 100px;">Submit</th>
+                </tr>
+            </thead>
+            <tbody id="table">
+            </tbody>
+        </table>
+    </div>
+    <div class="btns">
+        <div class="btn-container">
+            <a href="issue-index.html">
+                <button>Home</button>
+            </a>
+            <a href="author.html">
+                <button>Author</button>
+            </a>
+            <a href="publisher.html">
+                <button>Issuer</button>
+            </a>
+            <a href="QR.html">
+                <button>Scanner</button>
+            </a>
+        </div>
+    </div>
+    <script src="libraryManagement.js"></script>
+</body>
+
+</html>

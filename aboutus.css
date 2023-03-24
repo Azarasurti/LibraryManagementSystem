@@ -1,0 +1,50 @@
+.containerhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CE9461;
+}
+
+body{
+    /* background: linear-gradient(to top, rgb(0 0 0 / 50%)50% , rgb(0 0 0 / 50%)50%),url(1.jpg) center center/cover; */
+}
+
+.register-form,
+.contactcontainer {
+    margin: 5% 30%;
+}
+
+.formheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CE9461;
+}
+
+.video,
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    position: relative;
+    background-color: rgb(173, 148, 114);
+}
+
+#head6 {
+    margin: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.nav-item a:hover {
+    background-color: rgb(173, 148, 114);
+}
